@@ -405,7 +405,7 @@ html, body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-image: url('azulejo-pattern.jpg');
+  background-image: url('azulejo-pattern.jpeg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -545,6 +545,25 @@ html, body {
   width: 100%;
   letter-spacing: 0.01em;
   opacity: 0.92;
+}
+
+.card-detail a.phone-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(197, 160, 89, 0.45);
+  text-underline-offset: 3px;
+  font-weight: 600;
+  padding: 1px 3px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.card-detail a.phone-link:hover {
+  color: #F4E8C1;
+  text-decoration-color: var(--gold, #C5A059);
+  background: rgba(197, 160, 89, 0.18);
 }
 
 /* Seta tradicional dourada */
