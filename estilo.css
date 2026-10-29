@@ -439,6 +439,19 @@ html, body {
   transform: translateY(0) scale(0.985);
 }
 
+/* Destaque Reserva (Topo) */
+.destaque-reserva {
+  background: rgba(14, 55, 110, 0.92);
+  border: 1px solid rgba(218, 165, 32, 0.85);
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.4), 0 0 18px rgba(197, 160, 89, 0.35);
+}
+
+.destaque-reserva:hover {
+  background: rgba(20, 75, 145, 0.96);
+  border-color: #F4E8C1;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5), 0 0 24px rgba(218, 165, 32, 0.6);
+}
+
 /* Destaque Ementa */
 .ementa-highlight {
   background: rgba(10, 45, 90, 0.88);
@@ -490,6 +503,8 @@ html, body {
 }
 
 /* Garantir ícones dourados tradicionais em círculo azul escuro para cada categoria */
+.calendar-icon,
+.star-icon,
 .maps-icon,
 .phone-icon,
 .horario-icon,
@@ -501,6 +516,8 @@ html, body {
   border-color: rgba(197, 160, 89, 0.45);
 }
 
+.calendar-icon svg,
+.star-icon svg,
 .maps-icon svg,
 .phone-icon svg,
 .horario-icon svg,

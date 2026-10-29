@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Patê de Bacalhau', desc: '', price: '3.50€' },
             { name: 'Queijo', desc: '', price: '4.50€' },
             { name: 'Presunto Ibérico', desc: '', price: '12.00€' },
+            { name: 'Pimentos de Padrón Salteados', desc: 'Salteados em azeite virgem e flor de sal', price: '4.80€' },
             { name: 'Croquetes de Carne (2 unidades)', desc: '', price: '4.00€' }
           ]
         },
@@ -189,8 +190,11 @@ document.addEventListener('DOMContentLoaded', () => {
           dishes: [
             { name: 'Peito de Frango', desc: 'Peito de frango salteado, batata a murro e legumes', price: '13.50€' },
             { name: 'Frango Piri-Piri', desc: 'Perna de frango assada, batata a murro e legumes', price: '14.50€' },
+            { name: 'Pernil de Porco no Forno', desc: 'Pernil assado lentamente no forno, batata a murro e legumes', price: '16.00€' },
+            { name: 'Carne de Porco à Alentejana', desc: 'Cubos de lombo marinados no vinho, amêijoas, batata frita em cubos e picles', price: '16.50€' },
+            { name: 'Pica-Pau do Lombo', desc: 'Tiras tenras de carne salteadas em molho tradicional com picles e azeitonas', price: '16.50€' },
+            { name: 'Bife à Solar', desc: 'Bife da casa com presunto ibérico, ovo a cavalo, batata a murro e legumes', price: '18.50€' },
             { name: 'Escalope de Porco ao Molho Madeira', desc: 'Lombo de porco fatiado, vinho da Madeira, presunto, farinha, batata a murro e legumes', price: '14.00€' },
-            { name: 'Carne de Porco à Alentejana', desc: 'Cubos de lombo marinados no vinho, amêijoas, batata frita em cubos e picles', price: '16.00€' },
             { name: 'Bife da Vazia', desc: '300g de bife da vazia salteado, batata a murro e legumes', price: '18.50€' },
             { name: 'Picanha na Pedra', desc: 'Picanha fatiada, arroz, batata a murro, feijão preto e legumes', price: '65.00€ / kg' }
           ]
@@ -345,6 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Codfish Pâté', desc: '', price: '3.50€' },
             { name: 'Cheese', desc: '', price: '4.50€' },
             { name: 'Iberian Cured Ham', desc: '', price: '12.00€' },
+            { name: 'Sautéed Padrón Peppers', desc: 'Sautéed in virgin olive oil with sea salt flakes', price: '4.80€' },
             { name: 'Beef Croquettes (2 pcs)', desc: '', price: '4.00€' }
           ]
         },
@@ -414,8 +419,11 @@ document.addEventListener('DOMContentLoaded', () => {
           dishes: [
             { name: 'Chicken Breast', desc: 'Sautéed chicken breast, crushed potatoes and sautéed vegetables', price: '13.50€' },
             { name: 'Piri-Piri Roasted Chicken', desc: 'Spicy roast chicken leg, crushed potatoes and vegetables', price: '14.50€' },
+            { name: 'Slow-Roasted Pork Shank', desc: 'Slow-roasted pork shank, roasted crushed potatoes and seasonal vegetables', price: '16.00€' },
+            { name: 'Pork Alentejana Style', desc: 'Marinated pork cubes in wine, fresh clams, diced fried potatoes and pickles', price: '16.50€' },
+            { name: 'Traditional Beef Pica-Pau', desc: 'Tender beef strips sautéed in rich garlic and wine sauce with pickles & olives', price: '16.50€' },
+            { name: 'Solar Special Steak', desc: 'House special steak topped with Iberian cured ham, fried egg, crushed potatoes and vegetables', price: '18.50€' },
             { name: 'Pork Escalope with Madeira Sauce', desc: 'Sliced pork loin in Madeira wine sauce, ham, crushed potatoes and vegetables', price: '14.00€' },
-            { name: 'Pork Alentejana Style', desc: 'Marinated pork cubes in wine, fresh clams, diced fried potatoes and pickles', price: '16.00€' },
             { name: 'Sirloin Steak (Bife da Vazia)', desc: '300g sautéed sirloin steak, crushed potatoes and vegetables', price: '18.50€' },
             { name: 'Picanha on a Hot Stone', desc: 'Sliced picanha steak, white rice, crushed potatoes, black beans & vegetables', price: '65.00€ / kg' }
           ]
@@ -570,6 +578,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Rillettes de Morue', desc: '', price: '3.50€' },
             { name: 'Fromage', desc: '', price: '4.50€' },
             { name: 'Jambon Ibérique Affiné', desc: '', price: '12.00€' },
+            { name: 'Piments de Padrón Sautés', desc: 'Sautés à l’huile d’olive vierge et fleur de sel', price: '4.80€' },
             { name: 'Croquettes de Viande (2 pcs)', desc: '', price: '4.00€' }
           ]
         },
@@ -639,8 +648,11 @@ document.addEventListener('DOMContentLoaded', () => {
           dishes: [
             { name: 'Blanc de Poulet Sauté', desc: 'Filet de poulet sauté, pommes écrasées au four et légumes', price: '13.50€' },
             { name: 'Poulet Piri-Piri Grillé', desc: 'Cuisse de poulet rôtie épicée, pommes tapées et légumes', price: '14.50€' },
+            { name: 'Jarret de Porc Rôti au Four', desc: 'Jarret de porc rôti lentement, pommes de terre tapées et légumes', price: '16.00€' },
+            { name: 'Porc à l’Alentejana aux Palourdes', desc: 'Dés de porc marinés au vin blanc, palourdes fraîches, frites en dés et pickles', price: '16.50€' },
+            { name: 'Pica-Pau Traditionnel de Bœuf', desc: 'Lanières de bœuf tendre sautées à la sauce ail, vin blanc, pickles et olives', price: '16.50€' },
+            { name: 'Steak Façon Solar', desc: 'Steak signature maison garni de jambon ibérique, œuf au plat, pommes tapées et légumes', price: '18.50€' },
             { name: 'Escalope de Porc au Vin de Madère', desc: 'Émincé de porc au vin de Madère, jambon cru, pommes écrasées et légumes', price: '14.00€' },
-            { name: 'Porc à l’Alentejana aux Palourdes', desc: 'Dés de porc marinés au vin blanc, palourdes fraîches, frites en dés et pickles', price: '16.00€' },
             { name: 'Faux-Filet de Bœuf (300g)', desc: 'Steak de faux-filet sauté, pommes de terre écrasées et légumes de saison', price: '18.50€' },
             { name: 'Picanha sur Pierre Chaude', desc: 'Picanha tranchée, riz blanc, pommes écrasées, haricots noirs et légumes', price: '65.00€ / kg' }
           ]
@@ -795,6 +807,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Paté de Bacalao', desc: '', price: '3.50€' },
             { name: 'Queso', desc: '', price: '4.50€' },
             { name: 'Jamón Ibérico', desc: '', price: '12.00€' },
+            { name: 'Pimientos de Padrón Salteados', desc: 'Salteados en aceite de oliva virgen y escamas de sal', price: '4.80€' },
             { name: 'Croquetas de Carne (2 uds)', desc: '', price: '4.00€' }
           ]
         },
@@ -864,8 +877,11 @@ document.addEventListener('DOMContentLoaded', () => {
           dishes: [
             { name: 'Pechuga de Pollo Salteada', desc: 'Pechuga salteada con patatas al puño y verduras frescas', price: '13.50€' },
             { name: 'Pollo Asado al Piri-Piri', desc: 'Muslo de pollo asado picante con patatas al puño y verduras', price: '14.50€' },
+            { name: 'Pernil de Cerdo Asado al Horno', desc: 'Pernil de cerdo asado lentamente, patatas al puño y verduras', price: '16.00€' },
+            { name: 'Carne de Cerdo a la Alentejana', desc: 'Dados de lomo marinados en vino blanco, almejas frescas, patatas fritas en dados y encurtidos', price: '16.50€' },
+            { name: 'Pica-Pau Tradicional de Ternera', desc: 'Tiras tiernas de ternera salteadas con salsa al ajillo, encurtidos y aceitunas', price: '16.50€' },
+            { name: 'Bife Especial Solar', desc: 'Filete especial de la casa con jamón ibérico, huevo frito, patatas al puño y verduras', price: '18.50€' },
             { name: 'Escalope de Cerdo a la Salsa Madeira', desc: 'Lomo de cerdo en salsa al vino de Madeira, jamón, patatas al puño y verduras', price: '14.00€' },
-            { name: 'Carne de Cerdo a la Alentejana', desc: 'Dados de lomo marinados en vino blanco, almejas frescas, patatas fritas en dados y encurtidos', price: '16.00€' },
             { name: 'Entrecot de Ternera (Bife da Vazia 300g)', desc: '300g de solomillo bajo de ternera salteado con patatas al puño y verduras', price: '18.50€' },
             { name: 'Picanha a la Piedra Caliente', desc: 'Picanha laminada, arroz blanco, patatas al puño, frijoles negros y verduras', price: '65.00€ / kg' }
           ]
